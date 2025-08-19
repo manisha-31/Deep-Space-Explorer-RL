@@ -1,22 +1,28 @@
-Deep Space Explorer – Reinforcement Learning for Autonomous Navigation
-
+🚀 Deep Space Explorer – Reinforcement Learning for Autonomous Navigation
 📌 Project Overview
 
-This project implements a Reinforcement Learning (RL) agent for autonomous spacecraft navigation in a simulated space environment. The agent learns to optimize fuel usage, avoid obstacles, and reach its goal by interacting with a custom-built environment.
+This project implements a Reinforcement Learning (RL) agent for autonomous spacecraft navigation in a simulated space environment.
+The agent learns to:
 
-We use the Advantage Actor-Critic (A2C) algorithm with PPO enhancements to train the agent efficiently, enabling adaptive decision-making in dynamic and uncertain space conditions.
+Optimize fuel usage
+
+Avoid obstacles
+
+Reach its goal efficiently
+
+We use the Advantage Actor-Critic (A2C) algorithm with PPO enhancements to train the agent, enabling adaptive decision-making in dynamic and uncertain space conditions.
 
 ⚡ Key Features
 
-✅ Custom OpenAI Gym Environment with dynamic obstacles, gravity wells, fuel stations, and space physics
+✅ Custom OpenAI Gym Environment with dynamic obstacles, gravity wells, fuel stations, and realistic space physics
 
 ✅ Advantage Actor-Critic (A2C) + PPO implementation in PyTorch
 
 ✅ Reward Engineering for trajectory optimization, obstacle avoidance, and fuel efficiency
 
-✅ Difficulty Levels (Easy, Medium, Hard) with increasing environment complexity
+✅ Difficulty Levels (Easy, Medium, Hard) with increasing complexity
 
-✅ Training Visualization using Matplotlib & Seaborn for performance tracking
+✅ Training Visualization using Matplotlib & Seaborn
 
 ✅ Interactive Testing with real-time trajectory rendering
 
@@ -28,40 +34,34 @@ Libraries: PyTorch, NumPy, OpenAI Gym, Matplotlib, Seaborn
 
 RL Algorithm: Advantage Actor-Critic (A2C) with PPO optimization
 
-Environment Design: Custom Gym environment with space physics simulation
+Environment: Custom Gym environment with space physics simulation
 
 📊 Results
 
 🚀 Agent successfully learned collision-free trajectories under different difficulty levels
 
-🔋 Improved fuel efficiency by ~40% through hyperparameter tuning
+🔋 Achieved ~40% improvement in fuel efficiency through hyperparameter tuning
 
-🛰️ Achieved adaptive navigation in dynamic environments with moving obstacles and gravitational effects
-
+🛰️ Demonstrated adaptive navigation in dynamic environments with moving obstacles & gravitational effects
 
 🚀 How to Run
-
-Clone the repo:
-
+1️⃣ Clone the repository
 git clone https://github.com/manisha-31/Deep-Space-Explorer-RL.git
 cd Deep-Space-Explorer-RL
 
-
-Install dependencies:
-
+2️⃣ Install dependencies
 pip install -r requirements.txt
 
-Test the trained agent:
-
+3️⃣ Test the trained agent
 python RL.py
 
 📌 Future Improvements
 
-Multi-agent RL for swarm robotics in space exploration
+🤖 Multi-agent RL for swarm robotics in space exploration
 
-Improved simulation-to-reality transfer for real spacecraft navigation
+🌍 Improved simulation-to-reality transfer for real spacecraft navigation
 
-Integration with computer vision modules for terrain mapping
+🛰️ Integration with computer vision modules for terrain mapping
 
 📖 References
 
